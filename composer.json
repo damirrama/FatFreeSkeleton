@@ -1,0 +1,16 @@
+{
+    "name": "fat-free-skeleton",
+    "authors": [
+        {
+            "name": "Damir Rama",
+            "email": "damir.rama@carrybit.ch"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree": "^3.5"
+    },
+    "scripts": {
+        "dev": "php -S localhost:8000 -t web/ web/index_dev.php",
+        "prod": "php -S localhost:8000 -t web/ web/index.php"
+    }
+}
